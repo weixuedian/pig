@@ -10,7 +10,7 @@ spring:
         service-id: pig-config-server
         enabled: true
       profile: ${spring.profiles.active}
-      label: ${spring.profiles.active}
+      label: master
 ---
 spring:
   profiles: dev
